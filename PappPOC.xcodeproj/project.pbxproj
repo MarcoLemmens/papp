@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5D03481C084C4300032A7F /* MarkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D03471C084C4300032A7F /* MarkersViewController.swift */; };
+		6F5D034C1C084C7700032A7F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D034B1C084C7700032A7F /* SwiftyJSON.swift */; };
+		6FE351281C0859F6006B65BB /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE351271C0859F6006B65BB /* CompassViewController.swift */; };
+		6FE351301C08893E006B65BB /* kompas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3512F1C08893E006B65BB /* kompas.png */; };
+		6FE351321C088965006B65BB /* vliegtuigkompas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE351311C088965006B65BB /* vliegtuigkompas.png */; };
+		6FE351341C08B093006B65BB /* unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE351331C08B093006B65BB /* unlocked.png */; };
+		6FE351361C08B0C5006B65BB /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE351351C08B0C5006B65BB /* locked.png */; };
+		6FE351381C08C88E006B65BB /* force.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE351371C08C88E006B65BB /* force.png */; };
+		6FE3513A1C08DED2006B65BB /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE351391C08DED2006B65BB /* classes.swift */; };
+		6FE351421C08EA97006B65BB /* kompasShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE351411C08EA97006B65BB /* kompasShadow.png */; };
 		6FFBCA9E1C084A27002DE10F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBCA9D1C084A27002DE10F /* AppDelegate.swift */; };
-		6FFBCAA01C084A27002DE10F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBCA9F1C084A27002DE10F /* ViewController.swift */; };
 		6FFBCAA31C084A27002DE10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFBCAA11C084A27002DE10F /* Main.storyboard */; };
 		6FFBCAA51C084A27002DE10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFBCAA41C084A27002DE10F /* Assets.xcassets */; };
 		6FFBCAA81C084A27002DE10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFBCAA61C084A27002DE10F /* LaunchScreen.storyboard */; };
 		6FFBCAB31C084A27002DE10F /* PappPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBCAB21C084A27002DE10F /* PappPOCTests.swift */; };
 		6FFBCABE1C084A28002DE10F /* PappPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBCABD1C084A28002DE10F /* PappPOCUITests.swift */; };
+		BBDD33EC7E523C4279A1ACFE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD9B8AEDB084FC48A336F52 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1297ACD5C5069074D3897A3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6CD9B8AEDB084FC48A336F52 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5D03471C084C4300032A7F /* MarkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkersViewController.swift; sourceTree = "<group>"; };
+		6F5D034B1C084C7700032A7F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		6FE351271C0859F6006B65BB /* CompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		6FE3512F1C08893E006B65BB /* kompas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kompas.png; sourceTree = "<group>"; };
+		6FE351311C088965006B65BB /* vliegtuigkompas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vliegtuigkompas.png; sourceTree = "<group>"; };
+		6FE351331C08B093006B65BB /* unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlocked.png; sourceTree = "<group>"; };
+		6FE351351C08B0C5006B65BB /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locked.png; sourceTree = "<group>"; };
+		6FE351371C08C88E006B65BB /* force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = force.png; sourceTree = "<group>"; };
+		6FE351391C08DED2006B65BB /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		6FE351411C08EA97006B65BB /* kompasShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kompasShadow.png; sourceTree = "<group>"; };
 		6FFBCA9A1C084A27002DE10F /* PappPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PappPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFBCA9D1C084A27002DE10F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6FFBCA9F1C084A27002DE10F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FFBCAA21C084A27002DE10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FFBCAA41C084A27002DE10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FFBCAA71C084A27002DE10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 		6FFBCAB91C084A28002DE10F /* PappPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PappPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFBCABD1C084A28002DE10F /* PappPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PappPOCUITests.swift; sourceTree = "<group>"; };
 		6FFBCABF1C084A28002DE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E47D4C89985CB309E18647 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDD33EC7E523C4279A1ACFE /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				6FFBCAB11C084A27002DE10F /* PappPOCTests */,
 				6FFBCABC1C084A28002DE10F /* PappPOCUITests */,
 				6FFBCA9B1C084A27002DE10F /* Products */,
+				A030100407DA78BC2A14FC7E /* Pods */,
+				BF7D41B13226300949B76FCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +123,16 @@
 			isa = PBXGroup;
 			children = (
 				6FFBCA9D1C084A27002DE10F /* AppDelegate.swift */,
-				6FFBCA9F1C084A27002DE10F /* ViewController.swift */,
+				6F5D034B1C084C7700032A7F /* SwiftyJSON.swift */,
+				6FE351371C08C88E006B65BB /* force.png */,
+				6FE3512F1C08893E006B65BB /* kompas.png */,
+				6FE351411C08EA97006B65BB /* kompasShadow.png */,
+				6FE351331C08B093006B65BB /* unlocked.png */,
+				6FE351351C08B0C5006B65BB /* locked.png */,
+				6FE351311C088965006B65BB /* vliegtuigkompas.png */,
+				6F5D03471C084C4300032A7F /* MarkersViewController.swift */,
+				6FE351391C08DED2006B65BB /* classes.swift */,
+				6FE351271C0859F6006B65BB /* CompassViewController.swift */,
 				6FFBCAA11C084A27002DE10F /* Main.storyboard */,
 				6FFBCAA41C084A27002DE10F /* Assets.xcassets */,
 				6FFBCAA61C084A27002DE10F /* LaunchScreen.storyboard */,
@@ -125,6 +159,23 @@
 			path = PappPOCUITests;
 			sourceTree = "<group>";
 		};
+		A030100407DA78BC2A14FC7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E47D4C89985CB309E18647 /* Pods.debug.xcconfig */,
+				1297ACD5C5069074D3897A3C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF7D41B13226300949B76FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CD9B8AEDB084FC48A336F52 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FFBCAC21C084A28002DE10F /* Build configuration list for PBXNativeTarget "PappPOC" */;
 			buildPhases = (
+				4E3A6B3CD31E62D2DFA6EC51 /* Check Pods Manifest.lock */,
 				6FFBCA961C084A27002DE10F /* Sources */,
 				6FFBCA971C084A27002DE10F /* Frameworks */,
 				6FFBCA981C084A27002DE10F /* Resources */,
+				4BF7D2748764A4BE42FDD7A7 /* Embed Pods Frameworks */,
+				94206B207215AD96A92F1BB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +286,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE351301C08893E006B65BB /* kompas.png in Resources */,
+				6FE351321C088965006B65BB /* vliegtuigkompas.png in Resources */,
 				6FFBCAA81C084A27002DE10F /* LaunchScreen.storyboard in Resources */,
 				6FFBCAA51C084A27002DE10F /* Assets.xcassets in Resources */,
 				6FFBCAA31C084A27002DE10F /* Main.storyboard in Resources */,
+				6FE351421C08EA97006B65BB /* kompasShadow.png in Resources */,
+				6FE351381C08C88E006B65BB /* force.png in Resources */,
+				6FE351361C08B0C5006B65BB /* locked.png in Resources */,
+				6FE351341C08B093006B65BB /* unlocked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +314,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BF7D2748764A4BE42FDD7A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3A6B3CD31E62D2DFA6EC51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94206B207215AD96A92F1BB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FFBCA961C084A27002DE10F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FFBCAA01C084A27002DE10F /* ViewController.swift in Sources */,
+				6FE351281C0859F6006B65BB /* CompassViewController.swift in Sources */,
+				6FE3513A1C08DED2006B65BB /* classes.swift in Sources */,
 				6FFBCA9E1C084A27002DE10F /* AppDelegate.swift in Sources */,
+				6F5D034C1C084C7700032A7F /* SwiftyJSON.swift in Sources */,
+				6F5D03481C084C4300032A7F /* MarkersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +509,10 @@
 		};
 		6FFBCAC31C084A28002DE10F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E47D4C89985CB309E18647 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PappPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fontys.sm.PappPOC;
@@ -409,8 +522,10 @@
 		};
 		6FFBCAC41C084A28002DE10F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1297ACD5C5069074D3897A3C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PappPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fontys.sm.PappPOC;
@@ -485,6 +600,7 @@
 				6FFBCAC41C084A28002DE10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FFBCAC51C084A28002DE10F /* Build configuration list for PBXNativeTarget "PappPOCTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +609,7 @@
 				6FFBCAC71C084A28002DE10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FFBCAC81C084A28002DE10F /* Build configuration list for PBXNativeTarget "PappPOCUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +618,7 @@
 				6FFBCACA1C084A28002DE10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

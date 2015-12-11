@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  PappPOC
+//  papp
 //
-//  Created by Marco Lemmens on 27-11-15.
+//  Created by Marco Lemmens on 26-11-15.
 //  Copyright © 2015 Fontys. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyAVReNZG1f0q-RQzLuObGv_pGQY1MNyfAQ")
         return true
     }
 

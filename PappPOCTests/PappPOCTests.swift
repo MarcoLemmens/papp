@@ -1,15 +1,15 @@
 //
-//  PappPOCTests.swift
-//  PappPOCTests
+//  pappTests.swift
+//  pappTests
 //
-//  Created by Marco Lemmens on 27-11-15.
+//  Created by Marco Lemmens on 26-11-15.
 //  Copyright © 2015 Fontys. All rights reserved.
 //
 
 import XCTest
-@testable import PappPOC
+@testable import papp
 
-class PappPOCTests: XCTestCase {
+class pappTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
